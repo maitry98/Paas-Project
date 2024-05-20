@@ -5,6 +5,8 @@
 We built an Elastic application using AWS that can automatically scale out and in on demand and cost-effectively by using AWS Lambda functions.
 
 
+![paas](https://github.com/maitry98/Paas-Project/assets/147111812/f871dab7-b3c8-42b7-93d9-a5cbda2f18fd)
+
 ## Overview
 
 This app takes videos from the user(uploaded to S3), a Lambda function is invoked for every upload which extracts the first frame from the video and performs face recognition, looks up the recognized face in the database(DynamoDB), and returns the relevant information back to the user as CSV file in S3 bucket.
